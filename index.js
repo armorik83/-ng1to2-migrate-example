@@ -1,4 +1,4 @@
 (function() {
   'use strict';
-  angular.module('population', ['ngRoute']);
+  angular.module('population', ['ngRoute', 'ngResource']);
 })();
