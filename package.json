@@ -1,0 +1,30 @@
+{
+  "name": "ng1to2-migrate-example",
+  "version": "0.0.1",
+  "author": "armorik83",
+  "bugs": {
+    "url": "https://github.com/armorik83/ng1to2-migrate-example/issues"
+  },
+  "dependencies": {
+    "angular": "1.4.12",
+    "angular-route": "1.4.12"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.0",
+    "eslint-config-google": "^0.6.0",
+    "node-notifier": "^4.6.0",
+    "superstatic": "^4.0.3"
+  },
+  "homepage": "https://github.com/armorik83/ng1to2-migrate-example#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armorik83/ng1to2-migrate-example.git"
+  },
+  "scripts": {
+    "done": "notify -t \"Done\" -m \"Build has done.\" -o http://127.0.0.1:8080",
+    "start": "superstatic --port 8080 --host 127.0.0.1",
+    "lint": "eslint **/*.js"
+  }
+}
