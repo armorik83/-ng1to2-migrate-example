@@ -8,7 +8,10 @@
         restrict: 'E',
         template:
         '<ul>' +
-          '<li ng-repeat="country in $ctrl.countries">{{country.code}}: {{country.population}}</li>' +
+          '<li ng-repeat="country in $ctrl.countries">' +
+            '<pp-country-row code="country.code" population="country.population">' +
+            '</pp-country-row>' +
+          '</li>' +
         '</ul>',
         controllerAs: '$ctrl',
         controller: [
