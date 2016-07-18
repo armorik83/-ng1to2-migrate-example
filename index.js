@@ -12,7 +12,7 @@
             template: '<pp-list></pp-list>'
           })
           .when('/detail/:code', {
-            template: '<h1>it works!</h1>' //<pp-country-detail></pp-country-detail>
+            template: '<pp-country-detail></pp-country-detail>'
           })
           .otherwise({
             redirectTo: '/'

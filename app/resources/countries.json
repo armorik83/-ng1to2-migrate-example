@@ -1,12 +1,12 @@
 [
-  {"code": "CN", "population": 1349335152},
-  {"code": "IN", "population": 1224514327},
-  {"code": "US", "population":  310383948},
-  {"code": "ID", "population":  239870937},
-  {"code": "BR", "population":  194946470},
-  {"code": "PK", "population":  173593383},
-  {"code": "NG", "population":  158423182},
-  {"code": "BD", "population":  148692131},
-  {"code": "RU", "population":  142958164},
-  {"code": "JP", "population":  126535920}
+  {"code": "CN", "population": 1349335152, "capital": "北京"},
+  {"code": "IN", "population": 1224514327, "capital": "ニューデリー"},
+  {"code": "US", "population":  310383948, "capital": "ワシントンD.C."},
+  {"code": "ID", "population":  239870937, "capital": "ジャカルタ"},
+  {"code": "BR", "population":  194946470, "capital": "ブラジリア"},
+  {"code": "PK", "population":  173593383, "capital": "イスラマバード"},
+  {"code": "NG", "population":  158423182, "capital": "アブジャ"},
+  {"code": "BD", "population":  148692131, "capital": "ダッカ"},
+  {"code": "RU", "population":  142958164, "capital": "モスクワ"},
+  {"code": "JP", "population":  126535920, "capital": "東京"}
 ]

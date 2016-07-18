@@ -21,7 +21,7 @@
           function listController(CountriesService) {
             var _this = this;
 
-            CountriesService.get(function(countries) {
+            CountriesService.get().then(function(countries) {
               _this.countries = countries;
             });
           }
