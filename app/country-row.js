@@ -7,7 +7,7 @@
       return {
         restrict: 'E',
         template:
-        '{{$ctrl.code}} {{$ctrl.population}}',
+        '<img ng-src="{{$ctrl.flagSrc}}">{{$ctrl.code}} {{$ctrl.population}}',
         bindToController: {
           code: "=",
           population: "="
@@ -15,7 +15,7 @@
         controllerAs: '$ctrl',
         controller: [
           function countryRowController() {
-            //
+            this.flagSrc = 'app/resources/' + this.code + '.png';
           }
         ]
       };
