@@ -17,9 +17,13 @@
         controller: [
           '$scope',
           '$element',
-          function countryRowController($scope, $element) {
+          '$location',
+          function countryRowController($scope, $element, $location) {
+            var _this = this;
+
             function onClick() {
-              console.log('clicked!');
+              $location.path('/detail/' + _this.code.toLowerCase());
+              $scope.$apply();
             }
 
             $element.bind('click', onClick);
