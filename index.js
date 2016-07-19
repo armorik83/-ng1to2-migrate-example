@@ -14,6 +14,9 @@
           .when('/detail/:code', {
             template: '<pp-country-detail></pp-country-detail>'
           })
+          .when('/add', {
+            template: '<pp-form></pp-form>'
+          })
           .otherwise({
             redirectTo: '/'
           });

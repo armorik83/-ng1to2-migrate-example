@@ -25,6 +25,15 @@
           });
           return deferred.promise;
         };
+
+        this.add = function(code, population, capital) {
+          _this.countries = _this.countries || [];
+          _this.countries.push({
+            code: code,
+            population: population,
+            capital: capital
+          });
+        };
       }
     ]);
 })();

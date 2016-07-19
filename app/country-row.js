@@ -7,8 +7,8 @@
       return {
         restrict: 'E',
         template:
-        '<img ng-src="{{$ctrl.flagSrc}}">' +
-        '{{$ctrl.code | codeToName}} {{$ctrl.population | number}}',
+          '<img ng-src="{{$ctrl.flagSrc}}">' +
+          '{{$ctrl.code | codeToName}} {{$ctrl.population | number}}',
         bindToController: {
           code: "=",
           population: "="

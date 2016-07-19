@@ -8,7 +8,7 @@
         restrict: 'E',
         template:
           '<a href="/#/">戻る</a>' +
-          '<h1>{{$ctrl.country.code | codeToName}}</h1>' +
+          '<h2>{{$ctrl.country.code | codeToName}}</h2>' +
           '<p>人口:&nbsp;{{$ctrl.country.population | number}}人</p>' +
           '<p>首都:&nbsp;{{$ctrl.country.capital}}</p>',
         bindToController: {},

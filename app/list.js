@@ -7,14 +7,15 @@
       return {
         restrict: 'E',
         template:
-        '<ul>' +
-          '<li ng-repeat="country in $ctrl.countries">' +
-            '<pp-country-row ' +
-              'code="country.code" ' +
-              'population="country.population" ' +
-            '></pp-country-row>' +
-          '</li>' +
-        '</ul>',
+          '<a href="/#/add">国を追加</a>' +
+          '<ul>' +
+            '<li ng-repeat="country in $ctrl.countries">' +
+              '<pp-country-row ' +
+                'code="country.code" ' +
+                'population="country.population" ' +
+              '></pp-country-row>' +
+            '</li>' +
+          '</ul>',
         controllerAs: '$ctrl',
         controller: [
           'CountriesService',
